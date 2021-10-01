@@ -1,0 +1,103 @@
+import React from "react";
+import "./style.css";
+
+const MUsuariosLista = () => {
+ return (
+   <div>
+ 	<body className="body">
+   	<section id="Titulares">
+     	<h2 align="center" className="subtitulo">Listado de usuarios</h2>
+   	</section>
+ 
+   	<section id="TablaUsuarios">
+     	<table align="center">
+       	<thead className="encabezadoTabla">
+           	<tr>
+               	<td align="center">Nombre y apellido</td>
+               	<td align="center">Usuario</td>
+               	<td align="center">Correo Electrónico</td>
+               	<td align="center">Rol</td>
+               	<td align="center">Estado</td>
+               	<td align="center">Cambios en rol y estado</td>
+           	</tr>
+       	</thead>
+           
+       	<tbody className="formatoTabla">
+           	<tr id="row1">
+               	<td id="cell1-0">
+               	Juan Ossa
+               	</td>
+               	<td id="cell1-1">
+               	juaoss
+               	</td>
+               	<td id="cell1-2">
+               	juan@email.com
+               	</td>
+               	<td id="cell1-3">
+               	Vendedor
+               	</td>
+               	<td id="cell1-4">
+               	Activo
+               	</td>
+               	<td id="cell1-5">
+               	<button type="submit" className="botonTabla">Click para actualizar</button>
+               	</td>
+           	</tr>
+ 
+           	<tr id="row2">
+               	<td id="cell2-0"></td>
+               	<td id="cell2-1"></td>
+               	<td id="cell2-2"></td>
+               	<td id="cell2-3"></td>
+               	<td id="cell2-4"></td>
+               	<td id="cell2-5">
+               	<button type="submit" className="botonTabla">Click para actualizar</button>
+               	</td>
+           	</tr>
+ 
+           	<tr id="row3">
+               	<td id="cell2-0"></td>
+               	<td id="cell3-1"></td>
+               	<td id="cell3-2"></td>
+               	<td id="cell3-3"></td>
+               	<td id="cell3-4"></td>
+               	<td id="cell3-5">
+               	<button type="submit" className="botonTabla">Click para actualizar</button>
+               	</td>
+           	</tr>
+ 
+           	<tr id="row4">
+               	<td id="cell2-0"></td>
+               	<td id="cell4-1"></td>
+               	<td id="cell4-2"></td>
+               	<td id="cell4-3"></td>
+               	<td id="cell4-4"></td>
+               	<td id="cell4-5">
+               	<button type="submit" className="botonTabla">Click para actualizar</button>
+               	</td>
+           	</tr>
+ 
+           	<tr id="row5">
+               	<td id="cell5-0"></td>
+               	<td id="cell5-1"></td>
+               	<td id="cell5-2"></td>
+               	<td id="cell5-3"></td>
+               	<td id="cell5-4"></td>
+               	<td id="cell5-5">
+               	<button type="submit" className="botonTabla">Click para actualizar</button>
+               	</td>
+           	</tr>
+       	</tbody>
+     	</table>
+   	</section>
+ 
+   	<section id="botonesVentas" align="center">
+     	<button type="submit" className="botonNaranja">Imprimir</button>
+     	<button type="submit" className="botonNaranja">Descargar</button>
+   	</section>
+ 	</body>
+   </div>
+ );
+};
+ 
+export default MUsuariosLista;
